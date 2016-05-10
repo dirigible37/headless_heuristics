@@ -1,0 +1,5 @@
+To run: 
+
+./runall.sh <Tuner> <Tunee> <Problem Dimension> <Name of Problem>
+
+example: node main.js Genetic Flock 50 easom

@@ -1,0 +1,103 @@
+solver: Ant
+problem: pid
+Pop Size: 19
+Total Time: 60.176 seconds
+[ 0.36912632460249967,
+  0.06984757465180311,
+  0.5357130088351567,
+  0.6704534709887052,
+  0.6838250191270497,
+  0.9771758497316444 ]
+Best Score: 143207.529576
+solver: Amoeba
+problem: pid
+Total Time: 60.103 seconds
+[ 0.14390400986566942,
+  0.7875521275137265,
+  0.703456863993887,
+  1.322819603679199,
+  0.8232063405346252,
+  1.4411029277570622 ]
+Best Score: 1706102.85014
+solver: Bee
+problem: pid
+Total Time: 60.937 seconds
+[ 0,
+  0.13333333333333333,
+  0.06666666666666667,
+  0.3333333333333333,
+  0.26666666666666666,
+  0.2 ]
+Best Score: 347034.265124
+solver: Cuckoo
+problem: pid
+Total Time: 60.453 seconds
+[ 0.010122555773705244,
+  0.6570659305434674,
+  0.7714241798967123,
+  0.9435813501477242,
+  0.8333817168604583,
+  0.9932393929921091 ]
+Best Score: 1624322.39824
+solver: Flock
+problem: pid
+Total Time: 61.431 seconds
+[ 0.45497711414437686,
+  0.47895563157552884,
+  0.2166015206764449,
+  0.2487115004232056,
+  0.4302533538109007,
+  0.5193320237760254 ]
+Best Score: 1673802.08728
+solver: FlockPred
+problem: pid
+Total Time: 69.569 seconds
+[ 0.6364047641121101,
+  0.36679020087328046,
+  0.12235562265419614,
+  0.05496752149453616,
+  0.5907909919530847,
+  0.3056592903405521 ]
+Best Score: 788715.519809
+solver: Frog
+problem: pid
+/home/wmohr/headless_tuner/pid/node_modules/solvers/FrogSolver.js:58
+		var subt = new Array(best.length);
+		                         ^
+
+TypeError: Cannot read property 'length' of undefined
+    at GenerateFrog (/home/wmohr/headless_tuner/pid/node_modules/solvers/FrogSolver.js:58:28)
+    at FrogSolver.step (/home/wmohr/headless_tuner/pid/node_modules/solvers/FrogSolver.js:25:20)
+    at run (/home/wmohr/headless_tuner/pid/node_modules/controller.js:27:23)
+    at controller (/home/wmohr/headless_tuner/pid/node_modules/controller.js:5:3)
+    at run (/home/wmohr/headless_tuner/pid/main.js:32:3)
+    at /home/wmohr/headless_tuner/pid/main.js:36:5
+    at Object.loadSolvers (/home/wmohr/headless_tuner/pid/node_modules/solvers/solverLoader.js:76:4)
+    at Object.<anonymous> (/home/wmohr/headless_tuner/pid/main.js:35:14)
+    at Module._compile (module.js:397:26)
+    at Object.Module._extensions..js (module.js:404:10)
+solver: Genetic
+problem: pid
+Total Time: 65.206 seconds
+[ 0.61, 0.38, 0.19, 0.23, 0.56, 0.29 ]
+Best Score: 974159.743015
+solver: Rat
+problem: pid
+Total Time: 60.098 seconds
+[ 0.05862292639459128,
+  0.13601373777822817,
+  0.1490906232013112,
+  0.2953034582195505,
+  0.2712494255172189,
+  0.08971982888909984 ]
+Best Score: 1142128.21234
+solver: Wolf
+problem: pid
+Total Time: 60.366 seconds
+[ 0.1686012491118163,
+  0.1150700650177896,
+  0.6901530053000897,
+  0.9453420306090266,
+  0.9520942356903106,
+  0.9875566351693124 ]
+Best Score: 1708144.44086

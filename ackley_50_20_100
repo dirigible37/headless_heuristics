@@ -1,0 +1,85 @@
+solver: Ant
+problem: ackley
+CURRENT BEST SCORE: 17.8998
+CURRENT BEST SCORE: 15.7291
+CURRENT BEST SCORE: 15.1198
+CURRENT BEST SCORE: 10.4451
+CURRENT BEST SCORE: 2.9073
+Total Best Solution is: 19,0.45,2,0.69
+Total Best Score is: 2.9073
+solver: Amoeba
+problem: ackley
+CURRENT BEST SCORE: 0.0000
+Total Best Solution is: 1.22,1.24,0.41,0.64,19
+Total Best Score is: 0.0000
+solver: Bee
+problem: ackley
+CURRENT BEST SCORE: 15.6405
+CURRENT BEST SCORE: 5.6188
+Total Best Solution is: 2,2,4,0.25,0.15,92
+Total Best Score is: 5.6188
+solver: Cuckoo
+problem: ackley
+CURRENT BEST SCORE: 13.0703
+CURRENT BEST SCORE: 12.5548
+CURRENT BEST SCORE: 6.3727
+CURRENT BEST SCORE: 6.2397
+CURRENT BEST SCORE: 4.8801
+CURRENT BEST SCORE: 4.7876
+CURRENT BEST SCORE: 4.5720
+Total Best Solution is: 0.68,4,14
+Total Best Score is: 4.5720
+solver: Flock
+problem: ackley
+CURRENT BEST SCORE: 19.3669
+CURRENT BEST SCORE: 13.9916
+CURRENT BEST SCORE: 9.4390
+CURRENT BEST SCORE: 1.7261
+Total Best Solution is: 1.23,0.46,0.59,1
+Total Best Score is: 1.7261
+solver: FlockPred
+problem: ackley
+/home/wmohr/headless_tuner/node_modules/problem.js:99
+			paramMin = Number(ranges[i].min);
+			                           ^
+
+TypeError: Cannot read property 'min' of undefined
+    at processParams (/home/wmohr/headless_tuner/node_modules/problem.js:99:31)
+    at getScore (/home/wmohr/headless_tuner/node_modules/problem.js:155:13)
+    at Fitness (/home/wmohr/headless_tuner/node_modules/solvers/GaSolver.js:260:25)
+    at new GaSolver (/home/wmohr/headless_tuner/node_modules/solvers/GaSolver.js:9:18)
+    at run (/home/wmohr/headless_tuner/node_modules/controller.js:27:14)
+    at controller (/home/wmohr/headless_tuner/node_modules/controller.js:11:3)
+    at run (/home/wmohr/headless_tuner/main.js:38:3)
+    at /home/wmohr/headless_tuner/main.js:44:5
+    at Object.loadSolvers (/home/wmohr/headless_tuner/node_modules/solvers/solverLoader.js:76:4)
+    at Object.<anonymous> (/home/wmohr/headless_tuner/main.js:43:14)
+solver: Frog
+problem: ackley
+CURRENT BEST SCORE: 17.9719
+CURRENT BEST SCORE: 17.3593
+CURRENT BEST SCORE: 14.4035
+CURRENT BEST SCORE: 13.6349
+CURRENT BEST SCORE: 9.5421
+CURRENT BEST SCORE: 6.5845
+CURRENT BEST SCORE: 4.4685
+CURRENT BEST SCORE: 0.5607
+Total Best Solution is: 13,4,2,74
+Total Best Score is: 0.5607
+solver: Rat
+problem: ackley
+CURRENT BEST SCORE: 0.0020
+CURRENT BEST SCORE: 0.0013
+CURRENT BEST SCORE: 0.0010
+CURRENT BEST SCORE: 0.0008
+Total Best Solution is: 0.74,1.6,0.34,0.44,0.33,20,0.68
+Total Best Score is: 0.0008
+solver: Wolf
+problem: ackley
+CURRENT BEST SCORE: 0.0047
+CURRENT BEST SCORE: 0.0013
+CURRENT BEST SCORE: 0.0011
+CURRENT BEST SCORE: 0.0010
+CURRENT BEST SCORE: 0.0008
+Total Best Solution is: 6,36,0.71,5
+Total Best Score is: 0.0008

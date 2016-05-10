@@ -1,0 +1,66 @@
+solver: Ant
+problem: ackley
+CURRENT BEST SCORE: 6.3813
+CURRENT BEST SCORE: 5.4248
+CURRENT BEST SCORE: 4.2875
+CURRENT BEST SCORE: 1.5376
+Total Best Solution is: 29,0.26,1.52,0.26
+Total Best Score is: 1.5376
+solver: Amoeba
+problem: ackley
+CURRENT BEST SCORE: 0.0000
+Total Best Solution is: 0.62,2.48,0.17,0.59,28.8
+Total Best Score is: 0.0000
+solver: Bee
+problem: ackley
+CURRENT BEST SCORE: 17.0942
+CURRENT BEST SCORE: 13.7335
+CURRENT BEST SCORE: 13.5343
+CURRENT BEST SCORE: 9.5941
+CURRENT BEST SCORE: 9.2138
+CURRENT BEST SCORE: 5.8858
+Total Best Solution is: 5,1,1,0.14,0.45,92
+Total Best Score is: 5.8858
+solver: Cuckoo
+problem: ackley
+CURRENT BEST SCORE: 19.1693
+CURRENT BEST SCORE: 9.9038
+CURRENT BEST SCORE: 6.4491
+CURRENT BEST SCORE: 4.1026
+Total Best Solution is: 0.54,2,18
+Total Best Score is: 4.1026
+solver: Flock
+problem: ackley
+CURRENT BEST SCORE: 7.2033
+CURRENT BEST SCORE: 4.5564
+CURRENT BEST SCORE: 3.6925
+Total Best Solution is: 0.64,0.15,0.85,1
+Total Best Score is: 3.6925
+solver: FlockPred
+problem: ackley
+solver: Frog
+problem: ackley
+CURRENT BEST SCORE: 19.9795
+CURRENT BEST SCORE: 11.2221
+CURRENT BEST SCORE: 8.2829
+CURRENT BEST SCORE: 6.4650
+CURRENT BEST SCORE: 3.2057
+CURRENT BEST SCORE: 0.4405
+Total Best Solution is: 25,3,1,71
+Total Best Score is: 0.4405
+solver: Rat
+problem: ackley
+CURRENT BEST SCORE: 0.0016
+CURRENT BEST SCORE: 0.0006
+Total Best Solution is: 0.74,2.36,0.64,0.24,0.32,15,0.52
+Total Best Score is: 0.0006
+solver: Wolf
+problem: ackley
+CURRENT BEST SCORE: 0.0076
+CURRENT BEST SCORE: 0.0063
+CURRENT BEST SCORE: 0.0052
+CURRENT BEST SCORE: 0.0036
+CURRENT BEST SCORE: 0.0019
+CURRENT BEST SCORE: 0.0003
+Total Best Solution is: 9,22,0.32,8
+Total Best Score is: 0.0003
